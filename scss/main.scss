@@ -1,3 +1,7 @@
+.hidden{
+  display: none; 
+}
+
 h1.site-title{
   a:hover{
     color: $linkColourHover;
@@ -158,36 +162,6 @@ body.custom-background {
   background-color: $linkColourHover;
 }
 
-.widget-area{
-  input#subscribe-field, input.search-field {
-  background-color: white !important;
-  padding: 0.5em !important;
-  border: 1px solid $border-color;
-  }
-  input[type="submit"]{
-    border: 1px solid $linkColour;
-    color: $linkColour;
-    float: right;
-    transition: background-color 0.5s ease;
-    &:hover{
-      background-color: $linkColourHover;
-      color: white;
-    }
-  }
-}
-
-button, html input[type="button"], input[type="reset"], input[type="submit"] {
-  background-color: #f9f9f9;
-  border: 1px solid #e6e6e6;
-  color: #ea2e25;
-  cursor: pointer;
-  font-size: 13px;
-  font-size: 1rem;
-  line-height: 1;
-  padding: 0.5em 1em;
-  text-transform: none;
-}
-
 span#bsub-text{
   color: white;
 }
@@ -210,4 +184,8 @@ span#bsub-text{
   .post-title{
     font-weight: normal;
   }
+}
+
+form.search-form{
+
 }

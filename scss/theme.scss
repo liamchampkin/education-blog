@@ -261,28 +261,8 @@ button,
 input {
 	line-height: normal; /* Addresses FF3/4 setting line-height using !important in the UA stylesheet */
 }
-button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
-	background-color: #f9f9f9;
-	border: 1px solid #e6e6e6;
-	color: #ea2e25;
-	cursor: pointer; /* Improves usability and consistency of cursor style between image-type 'input' and others */
-	font-size: 13px;
-	font-size: 1rem;
-	line-height: 1;
-	padding: 0.962em 1.847em;
-	text-transform: uppercase;
-	-webkit-appearance: button; /* Corrects inability to style clickable 'input' types in iOS */
-}
-button:hover,
-html input[type="button"]:hover,
-input[type="reset"]:hover,
-input[type="submit"]:hover {
-	background-color: #ea2e25;
-	color: #fff;
-}
+
+
 button:focus,
 html input[type="button"]:focus,
 input[type="reset"]:focus,
@@ -313,19 +293,7 @@ input::-moz-focus-inner { /* Corrects inner padding and border displayed oddly i
 	border: 0;
 	padding: 0;
 }
-input[type="text"],
-input[type="email"],
-input[type="password"],
-input[type="search"],
-input[type="url"] {
-	background-color: #f9f9f9;
-	border: 0;
-	font-size: 13px;
-	font-size: 1rem;
-	padding: 0.6em;
-    -webkit-transition: 0.2s ease-in;
-            transition: 0.2s ease-in;
-}
+
 .widget input[type="text"],
 .widget input[type="email"],
 .widget input[type="password"],

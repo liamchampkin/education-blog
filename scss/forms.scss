@@ -1,0 +1,46 @@
+button, html input[type="button"], 
+input[type="reset"], 
+input[type="submit"]{
+  border: 1px solid $linkColour;
+  font-size: 1em;
+  color: $linkColour;
+  transition: background-color 0.5s ease;
+  padding: 0.6em;
+  cursor: pointer; /* Improves usability and consistency of cursor style between image-type 'input' and others */
+  text-transform: uppercase;
+  line-height: 1.5;
+  -webkit-appearance: button; /* Corrects inability to style clickable 'input' types in iOS */
+  background-color: white;
+  &:hover{
+    background-color: $linkColourHover;
+    color: white;
+  }
+}
+
+input#subscribe-field, input.search-field {
+  padding: 0.6em !important;
+  border: 1px solid $border-color;
+}
+
+
+.widget-area{
+  button, html input[type="button"], input[type="reset"], input[type="submit"]{
+    float: right;
+  }
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+input[type="url"] {
+  background-color: #f9f9f9;
+  border: 1px solid $border-color;
+  font-size: 1em;
+  line-height: 1.5;
+  padding: 0.6em;
+    -webkit-transition: 0.2s ease-in;
+            transition: 0.2s ease-in;
+}
+
+
