@@ -1,0 +1,359 @@
+/* = Media Queries
+----------------------------------------------- */
+
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 93.75%;
+  }
+  .site {
+    max-width: 1140px
+  }
+  .site-branding {
+    padding: 15px 34px 34px;
+  }
+  .display-header-text .site-image {
+    margin-bottom: 17px;
+  }
+  .site-description {
+    margin-top: 14px;
+  }
+  .content-area {
+    margin: 34px 0 34px 34px;
+    width: 705px;
+  }
+  .sidebar-widget-area {
+    margin: 34px 34px 34px 0;
+    width: 312px;
+  }
+  .hentry {
+    margin-bottom: 55px;
+  }
+  .format-quote blockquote:before {
+    left: -13px;
+    top: -13px;
+  }
+  .front-page-content-area .without-featured-image {
+    padding: 34px 34px 0 34px;
+  }
+  .front-page-content-area .hero {
+    margin-bottom: 55px;
+  }
+  .front-page-content-area .with-featured-image .hentry {
+    margin-left: 560px;
+    width: 546px;
+  }
+  .front-widget-area {
+    margin-bottom: 55px;
+    padding: 0 34px;
+  }
+  .first.front-widgets {
+    margin-right: 55px;
+  }
+  .front-widgets {
+    width: 508px;
+  }
+  .front-testimonials {
+    padding-left: 34px;
+    padding-right: 34px;
+  }
+  .jetpack-testimonial {
+    margin-right: 55px;
+    width: 508px;
+  }
+  .jetpack-testimonial:nth-child(even) {
+    margin-left: 0;
+  }
+  .content-area.full-width {
+    margin-right: 34px;
+  }
+  .child-pages .grid-row {
+    margin-bottom: 35px;
+    margin-left: -35px;
+  }
+  .child-page {
+    width: 334px;
+    margin-left: 35px;
+  }
+  .widget {
+    margin-bottom: 34px;
+  }
+  .footer-widget-area {
+    padding: 34px;
+  }
+  .footer-widgets {
+    width: 320px;
+  }
+  .first.footer-widgets,
+  .second.footer-widgets {
+    margin-right: 55px;
+  }
+  .taxonomy-description {
+    margin-bottom: 55px;
+  }
+  .comment,
+  .pingback,
+    .trackback {
+    padding-bottom: 34px;
+    padding-top: 34px;
+  }
+  .site-branding a + .site-title {
+    margin-top: 17px;
+  }
+}
+
+@media screen and (max-width: 1010px) {
+  .site {
+    max-width: 94.03508772%;
+    padding-left: 2.98245614%;
+    padding-right: 2.98245614%;
+  }
+  .site-branding,
+    .site-navigation {
+    padding-left: 2.98245614%;
+    padding-right: 2.98245614%;
+  }
+  .content-area {
+    margin: 2.98245614% 0 2.98245614% 2.98245614%;
+    width: 61.84210526%;
+  }
+  .sidebar-widget-area {
+    margin: 2.98245614% 2.98245614% 2.98245614% 0;
+    width: 27.36842105%;
+  }
+  .front-page-content-area .with-featured-image .hentry {
+    margin-left: 53.49544073%;
+    width: 44.07294833%;
+  }
+  .front-widgets {
+    width: 47.3880597%;
+  }
+  .first.front-widgets {
+    margin-right: 5.13059701%;
+  }
+  .jetpack-testimonial {
+    margin-right: 5.130597%;
+    width: 47.3880597%;
+  }
+  .jetpack-testimonial:nth-child(even) {
+    margin-right: 0;
+  }
+  .testimonial-thumbnail {
+    padding: 3.93700787%;
+    width: 24.40944882%;
+  }
+  .testimonial .entry-content,
+  .testimomial .entry-header {
+    width: 63.77952756%;
+  }
+  .content-area.full-width {
+    margin-right: 2.98245614%;
+  }
+  .child-pages .grid-row {
+    margin-left: -2.55591054%;
+  }
+  .child-page {
+    margin-left: 2.49221184%;
+    width: 30.8411215%;
+  }
+  .footer-widget-area {
+    padding: 2.982456140350877%;
+  }
+  .footer-widgets {
+    width: 29.850746268656714%;
+  }
+  .first.footer-widgets,
+  .second.footer-widgets {
+    margin-right: 5.1305970149253734%;
+  }
+}
+
+@media screen and (max-width: 1010px) {
+  .site-logo {
+      float: right;
+      position: relative;
+      top: -23px;
+      width: 100px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .menu-toggle {
+    color: #fff;
+    display: block;
+    font-family: "Droid Sans", Arial, sans-serif;
+    font-size: 16px;
+    font-size: 1.2307rem;
+    margin: 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .content-area {
+    margin-right: 2.98245614%;
+    width: 94.03508772%;
+  }
+  .sidebar-widget-area {
+    margin-left: 2.98245614%;
+    width: 94.03508772%;
+  }
+  .hentry,
+  .comments-area {
+    margin-bottom: 24px;
+  }
+  .hero-content > img,
+  .front-page-content-area .with-featured-image .hentry {
+    margin-left: 2.98245614%;
+    margin-right: 2.98245614%;
+    width: 94.03508772%;
+  }
+  .hero-content-overlayer {
+    height: 100%;
+    overflow: auto;
+    position: static;
+    top: auto;
+  }
+  .front-widgets {
+    margin-bottom: 15px;
+    margin-right: 0;
+    width: 100%;
+  }
+  .jetpack-testimonial {
+    margin-bottom: 15px;
+    margin-left: 0;
+    width: 100%;
+  }
+  .footer-widgets {
+    width: 100%;
+  }
+  .first.footer-widgets,
+  .second.footer-widgets {
+    margin-right: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .site-branding {
+    text-align: center;
+  }
+  .menu-toggle {
+    color: #fff;
+    display: block;
+    font-family: "Droid Sans", Arial, sans-serif;
+    font-size: 16px;
+    font-size: 1.2307rem;
+    margin: 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .menu-toggle:before {
+    content: "\f419";
+    margin-right: 12px;
+    position: relative;
+    top: -2px;
+  }
+  .menu-toggle,
+  .main-navigation.toggled ul {
+    display: block;
+  }
+  .main-navigation {
+    color: #fff;
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+  .main-navigation ul {
+    display: none;
+  }
+  .main-navigation ul a {
+    padding: 1em;
+  }
+  .main-navigation ul li {
+    border-top: 1px dotted #5d5c5c;
+    float: none;
+    padding: 0;
+  }
+  .main-navigation ul li:first-child {
+    border-top: 0;
+  }
+  .main-navigation ul ul {
+    background-color: transparent;
+    float: none;
+    list-style: square;
+    margin: 0 0 1em 2.15em;
+    position: static;
+  }
+  .main-navigation ul ul li {
+    border-top: 0;
+  }
+  .main-navigation ul ul a {
+    padding: 0.5em 0;
+    width: auto;
+  }
+  .main-navigation ul ul ul {
+    background-color: transparent;
+    margin-bottom: 0;
+  }
+  .main-navigation ul ul ul li {
+    border-top: 0;
+  }
+  .main-navigation ul ul ul a {
+    width: auto;
+  }
+  .child-pages .grid-row {
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+  .child-page {
+    float: none;
+    margin: 0 auto 24px auto;
+    max-width: 334px;
+    width: auto;
+  }
+  .site-logo {
+    margin: 0 auto 12px;
+  }
+
+  .main-navigation li.menu-item {
+    float: left;
+    font-family: museo-slab-1,"Droid Serif",Georgia,serif;
+    padding: 0;
+    position: relative;
+    top: 0px;
+    transition: 0 ease 0s;
+    width: 100%;
+    list-style-type: none;
+  }
+}
+
+@media screen and (max-width: 362px) {
+  .site-logo {
+    max-width: 40%;
+    top: 0;
+    position: relative;
+    float: none;
+  }
+  .site-title {
+    font-size: 1.8rem;
+  }
+  .site-branding {
+      padding-bottom: 0;
+  }
+  .menu-item{
+    width: 100%;
+    list-style-type: none;
+  }
+  .main-navigation li.menu-item{
+    top: 0px;
+  }
+  .entry-content{
+    padding: 10px;
+  }
+  .comments-link{
+    float: left !important;
+    margin: 0px !important;
+  }
+  .edit-link{
+    float: left !important;
+    
+  }
+}
+// Speak to Liam before editing this file as all css is backed up

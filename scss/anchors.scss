@@ -1,0 +1,20 @@
+a {
+	text-decoration: none;
+}
+a:visited {
+
+}
+a:hover,
+a:focus,
+a:active {
+	text-decoration: none;
+}
+
+.entry-content{
+	a{
+		border-bottom: 1px solid $light-grey;
+		img{
+			border-bottom: none;
+		}
+	}
+}

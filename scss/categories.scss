@@ -1,0 +1,136 @@
+.category-maths{
+  .entry-header{
+    border-left: $title-border-left solid $maths;
+    a:hover{
+      color: $maths;
+    }
+    .entry-title{
+      a{
+        color: $maths;
+        &:hover{
+          color: $maths-hover;
+        }
+      }
+    }
+  }
+}
+
+.category-english{
+  .entry-header{
+    border-left: $title-border-left solid $english;
+    a:hover{
+      color: $english;
+    }
+    .entry-title{
+      a{
+        color: $english;
+        &:hover{
+          color: $english-hover;
+        }
+      }
+    }
+  }
+}
+
+.category-geography{
+  .entry-header{
+    border-left: $title-border-left solid $secondary;
+    a:hover{
+      color: $secondary;
+    }
+    .entry-title{
+      a{
+        color: $secondary;
+        &:hover{
+          color: $secondary-hover;
+        }
+      }
+    }
+  }
+}
+
+.category-mfl{
+  .entry-header{
+    border-left: $title-border-left solid $mfl;
+    a:hover{
+      color: $mfl;
+    }
+    .entry-title{
+      a{
+        color: $mfl;
+        &:hover{
+          color: $mfl-hover;
+        }
+      }
+    }
+  }
+}
+
+.category-vocational{
+  .entry-header{
+    border-left: $title-border-left solid $vocational;
+    a:hover{
+      color: $vocational;
+    }
+    .entry-title{
+      a{
+        color: $vocational;
+        &:hover{
+          color: $vocational-hover;
+        }
+      }
+    }
+  }
+
+}
+
+.category-motor-vehicle-technology{
+  .entry-header{
+    border-left: $title-border-left solid $motor-vehicle;
+    a:hover{
+      color: $motor-vehicle;
+    }
+    .entry-title{
+      a{
+        color: $motor-vehicle;
+        &:hover{
+          color: $motor-vehicle-hover;
+        }
+      }
+    }
+  }
+}
+
+.category-health-social-care{
+  .entry-header{
+    border-left: $title-border-left solid $health-social;
+    a:hover{
+      color: $health-social;
+    }
+    .entry-title{
+      a{
+        color: $health-social;
+        &:hover{
+          color: $health-social-hover;
+        }
+      }
+    }
+  }
+}
+
+.category-functional-skills{
+  .entry-header{
+    border-left: $title-border-left solid $functional-skills;
+    a:hover{
+      color: $functional-skills;
+    }
+    .entry-title{
+      a{
+        color: $functional-skills;
+        &:hover{
+          color: $functional-skills-hover;
+        }
+      }
+    }
+  }
+}

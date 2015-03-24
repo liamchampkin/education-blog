@@ -1,0 +1,139 @@
+li.home-menu{
+  background-color: $home;
+  &:hover{
+    background-color: $home / 0.9;
+  }
+}
+
+ li.primary-menu{
+  background-color: $primary;
+  &:hover{
+    background-color: $primary / 0.9;
+  }
+  ul {
+    background-color: $primary /0.9;
+    li{
+      &:hover{
+        background: $primary;
+      }
+    }
+  }
+ }
+
+ li.secondary-menu{
+  background-color: $secondary;
+  &:hover{
+    background-color: $secondary / 0.9;
+  }
+  ul {
+    background-color: $secondary /0.9;
+    li{
+      &:hover{
+        background: $secondary;
+      }
+    }
+  }
+ }
+
+ li.vocational-menu{
+  background-color: $vocational;
+  &:hover{
+    background-color: $vocational / 0.9;
+  }
+  ul {
+    background-color: $vocational /0.9;
+    li{
+      &:hover{
+        background: $vocational;
+      }
+    }
+  }
+ }
+
+ li.international-menu{
+  background-color: $international;
+  &:hover{
+    background-color: $international / 0.9;
+  }
+  ul {
+    background-color: $international /0.9;
+    li{
+      &:hover{
+        background: $international;
+      }
+    } 
+  }
+ }
+
+ li.theory-menu{
+  background-color: $theory;
+  &:hover{
+    background-color: $theory / 0.9;
+  }
+  ul {
+    background-color: $theory /0.9;
+    li{
+      &:hover{
+        background: $theory;
+      }
+    } 
+  }
+ }
+
+
+
+
+.main-navigation {
+  background-color: transparent;
+  padding: 0 0 0 2em;
+  ul ul{
+    font-family: $title-font-stack;
+    li{
+      border-top: 1px solid rgba(248, 248, 248, 0.1);
+      border-bottom: none;
+      a{
+        font-size: $sub-menu-font-size;
+      }
+    }
+    a{
+      &:hover{
+        border-bottom: 0px solid transparent !important;
+      }
+    }
+  }
+  li.current-menu-item, .current-menu-parent{
+    top: 0px !important;
+
+  }
+  li.menu-item {
+    font-family: $title-font-stack;
+    float: left;
+    padding: 0;
+    top: $menu-pop;
+    position: relative;
+    transition: top 0.5s ease;
+    &:hover{
+      top: 0px;
+    }
+
+  }
+  a {
+    color: #fff;
+    font-size: $menu-font-size;
+    padding: 7px 15px 18px;
+    text-transform: none;
+  }
+}
+
+ul.sub-menu{
+  transition: none !important;
+  left: 0 !important;
+  li{
+    transition: none !important;
+    top: 0px !important;
+  }
+}
+
+.menu-toggle{
+  color: $linkColour !important;
+}

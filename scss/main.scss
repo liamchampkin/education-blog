@@ -1,0 +1,214 @@
+h1.site-title{
+  a:hover{
+    color: $linkColourHover;
+  }
+}
+
+.site-content, #tertiary{
+  a{
+    color: $linkColour;
+      &:hover{
+        text-decoration: none !important;
+        color: $linkColourHover;
+        border-bottom: 1px solid;
+      }
+    }
+}
+
+#secondary{
+  a{
+    color: $linkColour;
+  }
+}
+
+#tertiary{
+  a{
+    color: $footerlinkColour;
+      &:hover{
+        color: $footerlinkColourHover;
+      }
+    }
+}
+
+p, li, span, blockquote{
+  color: #454545;
+}
+
+body.custom-background {
+  background-color: $body-background-color;
+  background-image: none !important; 
+  // overiding some strange css behaviour
+}
+
+.site-branding{
+  position: relative;
+  padding: 30px 0 50px 15px;
+}
+
+.site-logo{
+  position: absolute;
+  right: 0;
+  top: 20px;
+  margin-top: 36px;
+}
+
+.site-content {
+  background-color: white;
+  border: 1px solid $border-color;
+  position: relative;
+  z-index: 1;
+}
+
+.entry-header {
+  padding: 1.3334em 1.3334em 1em;
+  border-top: 1px solid $border-color;
+  border-right: 1px solid $border-color;
+  background-color: $header-bg-color;
+  a, h1{
+    color: $oupGrey;
+  }
+  &::before{
+    color: #fff;
+    content: "";
+    left: -28px;
+    position: absolute;
+    transform: rotate(-90deg);
+    font-family: $title-font-stack;
+    width: 80px;
+  }
+  .entry-title a{
+    transition: color 0.5s ease;
+  }
+}
+
+.current-cat{
+
+}
+
+.hentry{
+  box-shadow: none;
+}
+
+.entry-content{
+  padding: 30px;
+  border-left: 1px solid $border-color;
+  border-right: 1px solid $border-color;
+  border-bottom: 1px solid $border-color;
+}
+
+.type-post{
+  .entry-thumbnail {
+    border-left: 1px solid $border-color;
+    border-right: 1px solid $border-color;
+    margin: 0;
+    padding: 20px 0 0;
+  }
+}
+
+.front-widget-area .widget, .sidebar-widget-area .widget {
+    background-color: $header-bg-color;
+    box-shadow: none;
+    color: #999;
+    padding: 24px;
+    border: 1px solid $border-color;
+}
+
+.footer-widgets{
+  .widget{
+    background-color: $footer-widget-bg;
+    padding: 20px;
+  }
+}
+
+.footer-widget-area{
+  .widget ul > li, .widget ol > li, .widget_calendar table, .widget_calendar td{
+    border-color: $footer-widget-list-border;
+  }
+}
+
+.post-navigation{
+  .nav-previous{
+
+  }
+}
+
+.post-navigation a, 
+.paging-navigation a {
+  color: white;
+  background-color: $oupGrey;
+  &:hover{
+    background-color: $oupGreyLighter;
+    color: white;
+    border: none;
+  }
+
+}
+
+.milestone-header{
+  span.date{
+    color: $light-grey;
+  }
+}
+
+#infinite-handle span{
+  background-color: $linkColour;
+  color: $white;
+  box-shadow: none;
+}
+#infinite-handle span:hover{
+  background-color: $linkColourHover;
+}
+
+.widget-area{
+  input#subscribe-field, input.search-field {
+  background-color: white !important;
+  padding: 0.5em !important;
+  border: 1px solid $border-color;
+  }
+  input[type="submit"]{
+    border: 1px solid $linkColour;
+    color: $linkColour;
+    float: right;
+    transition: background-color 0.5s ease;
+    &:hover{
+      background-color: $linkColourHover;
+      color: white;
+    }
+  }
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  background-color: #f9f9f9;
+  border: 1px solid #e6e6e6;
+  color: #ea2e25;
+  cursor: pointer;
+  font-size: 13px;
+  font-size: 1rem;
+  line-height: 1;
+  padding: 0.5em 1em;
+  text-transform: none;
+}
+
+span#bsub-text{
+  color: white;
+}
+
+.single footer.entry-meta{
+  border-top: 0px;
+}
+
+.comments-area{
+  box-shadow: none;
+  border: 1px solid $border-color;
+}
+
+.cat-post-widget{
+  ul{
+    li{
+      border-bottom: none;
+    }
+  }
+  .post-title{
+    font-weight: normal;
+  }
+}

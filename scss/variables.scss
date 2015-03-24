@@ -1,0 +1,107 @@
+//colours
+$oupGrey:  														#6C6869;
+$oupGreen: 														#99CA3C;
+$oupPink:  														#D11B6D;
+$oupLilac:  													#00B8B3;
+$oupPurple: 													#7D81BE;
+$oupViolet: 													#633076;
+$oupLightBlue:  											#1F68A5;
+$white: 															#fff;
+$grey: 																#dadada;
+$body-background-color: 							#F0F0F0;
+$light-grey: 													#D3D3D3;
+$black:																#333333;
+
+$border-color: 												$light-grey;
+$header-bg-color: 										#f9f9f9;
+
+//lighter colours for roll overs
+$oupGreyLighter:   										$oupGrey / 0.9;
+$oupGreenLighter:  										$oupGreen / 0.9;
+$oupPinkLighter:   										$oupPink / 0.9;
+$oupLilacLighter:  										$oupLilac / 0.9;
+$oupPurpleLighter: 										$oupPurple / 0.9;   
+$oupVioletLighter: 										$oupViolet / 0.9;   
+$oupLightBlueLighter: 								$oupLightBlue / 0.9;
+
+//links
+$linkColour:                          $oupPink;
+$linkColourLighter:                   $linkColour /0.9;
+$menu-pop:                            11px;
+$main-navigation-font-size:           1.4rem;
+
+//subject Colours
+$home:                                $oupGrey;
+$primary:															$oupGreen;
+$secondary:                           $oupPink;
+$vocational:                          $oupViolet;
+$international:                       $oupLilac;
+$theory:                       				$oupPurple;
+
+$english:                             $secondary;
+$maths:                               $secondary;
+$mfl:                                 $secondary;
+$science:                             $secondary;
+
+$childcare:                           $vocational;
+$functional-skills:                   $vocational;
+$health-social:                       $vocational;
+$motor-vehicle:                       $vocational;
+$salon:                               $vocational;
+$btec:                                $vocational;
+$build:                               $vocational;
+$footer-widget-bg:                    #282828;
+$footer-widget-list-border:           $footer-widget-bg / 0.7;
+
+//subject hover Colours
+$home-hover:                          $home                              / 0.9; 
+$english-hover:                       $english                           / 0.9; 
+$secondary-hover:                     $secondary                         / 0.9; 
+$maths-hover:                         $maths                             / 0.9; 
+$mfl-hover:                           $mfl                               / 0.9; 
+$science-hover:                       $science                           / 0.9; 
+$vocational-hover:                    $vocational                        / 0.7;  
+$childcare-hover:                     $childcare                         / 0.7;  
+$functional-skills-hover:             $functional-skills                 / 0.7;  
+$health-social-hover:                 $health-social                     / 0.7;  
+$motor-vehicle-hover:                 $motor-vehicle                     / 0.7;  
+$salon-hover:                         $salon                             / 0.7;  
+$btec-hover:                          $btec                              / 0.7;  
+$build-hover:                         $build                             / 0.7;   
+
+//links
+$linkColour: 													$oupPink;
+$linkColourHover: 										$oupPinkLighter;
+$footerlinkColour: 										#fff;
+$footerlinkColourHover: 							$oupLilacLighter;
+
+
+//fonts
+$menu-font-size: 											1.3rem;
+$sub-menu-font-size: 									1rem;
+$line-height: 												1.5;
+$link-colour: 												$white;
+$p-font-size: 												1.2em;
+$p-margin-bottom: 										1.5em;
+$p-line-height:												1.7;
+
+//wp overiding title font
+$title-font-stack: 										"museo-slab","pt-serif",Georgia,serif;
+$font-stack:													"pt-serif";
+
+//heights
+$header-height: 	 										90px;
+
+//widths
+$primary-width: 	 										64%;
+
+$title-border-left:										6px;
+
+
+
+// @mixin border-radius($radius) {
+//   -webkit-border-radius: $radius;
+//      -moz-border-radius: $radius;
+//       -ms-border-radius: $radius;
+//           border-radius: $radius;
+// }
