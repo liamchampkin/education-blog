@@ -15,5 +15,15 @@ p, li, blockquote, span{
 
 h1{
 	font-family: $title-font-stack;
+}
 
-	}
+h1.site-title {
+  font-size: 2.5em;
+  margin-bottom: 0;
+}
+
+
+.site-description {
+  line-height: 1;
+  margin-bottom: 15px;
+}
