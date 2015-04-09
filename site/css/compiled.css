@@ -1631,13 +1631,13 @@ li.international-menu {
       background: #00B8B3; }
 
 li.theory-menu {
-  background-color: #7D81BE; }
+  background-color: #25ab68; }
   li.theory-menu:hover {
-    background-color: #8a8fd3; }
+    background-color: #29be73; }
   li.theory-menu ul {
-    background-color: #8a8fd3; }
+    background-color: #29be73; }
     li.theory-menu ul li:hover {
-      background: #7D81BE; }
+      background: #25ab68; }
 
 .main-navigation {
   background-color: transparent;
