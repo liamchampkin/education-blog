@@ -134,3 +134,20 @@
     }
   }
 }
+
+.category-theory-of-knowledge{
+  .entry-header{
+    border-left: $title-border-left solid $theory;
+    a:hover{
+      color: $theory;
+    }
+    .entry-title{
+      a{
+        color: $theory;
+        &:hover{
+          color: $theory;
+        }
+      }
+    }
+  }
+} 

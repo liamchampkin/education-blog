@@ -1,6 +1,6 @@
 /*
 Theme Name: OUP Motif
-Editor: Liam Smith2
+Editor: Liam Smith
 
 This theme, like WordPress, is licensed under the GPL.
 
@@ -1750,6 +1750,15 @@ ul.sub-menu {
     .category-functional-skills .entry-header .entry-title a:hover {
       color: #8d44a8; }
 
+.category-theory-of-knowledge .entry-header {
+  border-left: 6px solid #25ab68; }
+  .category-theory-of-knowledge .entry-header a:hover {
+    color: #25ab68; }
+  .category-theory-of-knowledge .entry-header .entry-title a {
+    color: #25ab68; }
+    .category-theory-of-knowledge .entry-header .entry-title a:hover {
+      color: #25ab68; }
+
 .hidden {
   display: none; }
 
@@ -1760,8 +1769,7 @@ h1.site-title a:hover {
   color: #D11B6D; }
   .site-content a:hover, #tertiary a:hover {
     text-decoration: none !important;
-    color: #e81e79;
-    border-bottom: 1px solid; }
+    color: #e81e79; }
 
 #secondary a {
   color: #D11B6D; }

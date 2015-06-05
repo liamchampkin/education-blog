@@ -13,8 +13,7 @@ h1.site-title{
     color: $linkColour;
       &:hover{
         text-decoration: none !important;
-        color: $linkColourHover;
-        border-bottom: 1px solid;
+        color: $linkColourHover; 
       }
     }
 }
