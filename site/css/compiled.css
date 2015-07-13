@@ -1678,6 +1678,9 @@ ul.sub-menu {
 .menu-toggle {
   color: #D11B6D !important; }
 
+.page-template-default .entry-header {
+  border-left: 6px solid #6C6869; }
+
 .category-maths .entry-header {
   border-left: 6px solid #D11B6D; }
   .category-maths .entry-header a:hover {

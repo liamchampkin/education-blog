@@ -1,3 +1,10 @@
+.page-template-default{
+  .entry-header{
+    border-left: $title-border-left solid $home;
+  }
+}
+
+
 .category-maths{
   .entry-header{
     border-left: $title-border-left solid $maths;
