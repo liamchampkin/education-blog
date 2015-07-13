@@ -1750,6 +1750,15 @@ ul.sub-menu {
     .category-functional-skills .entry-header .entry-title a:hover {
       color: #8d44a8; }
 
+.category-childcare .entry-header {
+  border-left: 6px solid #633076; }
+  .category-childcare .entry-header a:hover {
+    color: #633076; }
+  .category-childcare .entry-header .entry-title a {
+    color: #633076; }
+    .category-childcare .entry-header .entry-title a:hover {
+      color: #633076; }
+
 .category-theory-of-knowledge .entry-header {
   border-left: 6px solid #25ab68; }
   .category-theory-of-knowledge .entry-header a:hover {
@@ -1938,6 +1947,52 @@ a:active {
   border-bottom: 1px solid #D3D3D3; }
   .entry-content a img {
     border-bottom: none; }
+
+#secondary .btn {
+  color: white;
+  display: block;
+  font-size: 1em;
+  padding: 1em;
+  text-align: center;
+  font-family: "museo-slab", "pt-serif", Georgia, serif;
+  background-color: #6C6869; }
+  #secondary .btn:hover {
+    background-color: #787374; }
+
+body.category-secondary #secondary .btn,
+body.category-english #secondary .btn,
+body.category-geography #secondary .btn,
+body.category-maths #secondary .btn,
+body.category-mfl #secondary .btn {
+  background-color: #D11B6D; }
+  body.category-secondary #secondary .btn:hover,
+  body.category-english #secondary .btn:hover,
+  body.category-geography #secondary .btn:hover,
+  body.category-maths #secondary .btn:hover,
+  body.category-mfl #secondary .btn:hover {
+    background-color: #e81e79; }
+
+body.category-vocational #secondary .btn,
+body.category-childcare #secondary .btn,
+body.category-functional-skills #secondary .btn,
+body.category-health-social-care #secondary .btn,
+body.category-motor-vehicle-technology #secondary .btn {
+  background-color: #633076; }
+  body.category-vocational #secondary .btn:hover,
+  body.category-childcare #secondary .btn:hover,
+  body.category-functional-skills #secondary .btn:hover,
+  body.category-health-social-care #secondary .btn:hover,
+  body.category-motor-vehicle-technology #secondary .btn:hover {
+    background-color: #6e3583; }
+
+body.category-theory-of-knowledge #secondary .btn {
+  background-color: #25ab68; }
+  body.category-theory-of-knowledge #secondary .btn:hover {
+    background-color: #29be73; }
+
+#content .no-widget-border {
+  border: 0 solid;
+  padding: 0; }
 
 p, li, blockquote, span {
   font-family: "pt-serif"; }

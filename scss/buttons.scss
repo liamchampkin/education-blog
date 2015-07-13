@@ -1,0 +1,46 @@
+#secondary .btn{
+  color: white;
+  display: block;
+  font-size: 1em;
+  padding: 1em;
+  text-align: center;
+  font-family: $title-font-stack;
+  background-color: $home;
+  &:hover{
+    background-color: $home /0.9;
+  }
+}
+
+body.category-secondary #secondary .btn,
+body.category-english #secondary .btn,
+body.category-geography #secondary .btn,
+body.category-maths #secondary .btn,
+body.category-mfl #secondary .btn{
+  background-color: $secondary;
+  &:hover{
+    background-color: $secondary /0.9;
+  }
+}
+
+body.category-vocational #secondary .btn,
+body.category-childcare #secondary .btn,
+body.category-functional-skills #secondary .btn,
+body.category-health-social-care #secondary .btn,
+body.category-motor-vehicle-technology #secondary .btn{
+  background-color: $vocational;
+  &:hover{
+    background-color: $vocational /0.9; 
+  }
+}
+
+body.category-theory-of-knowledge #secondary .btn{
+  background-color: $theory;
+  &:hover{
+    background-color: $theory /0.9;
+  }
+}
+
+#content .no-widget-border {
+  border: 0 solid;
+  padding: 0;
+}

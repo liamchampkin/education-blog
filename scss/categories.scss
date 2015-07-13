@@ -135,6 +135,23 @@
   }
 }
 
+.category-childcare{
+  .entry-header{
+    border-left: $title-border-left solid $childcare;
+    a:hover{
+      color: $childcare;
+    }
+    .entry-title{
+      a{
+        color: $childcare;
+        &:hover{
+          color: $childcare;
+        }
+      }
+    }
+  }
+}
+
 .category-theory-of-knowledge{
   .entry-header{
     border-left: $title-border-left solid $theory;
