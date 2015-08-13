@@ -1592,14 +1592,14 @@ object {
 li.home-menu {
   background-color: #6C6869; }
   li.home-menu:hover {
-    background-color: #787374; }
+    background-color: #787475; }
 
 li.primary-menu {
   background-color: #99CA3C; }
   li.primary-menu:hover {
-    background-color: #aae042; }
+    background-color: #aae043; }
   li.primary-menu ul {
-    background-color: #aae042; }
+    background-color: #aae043; }
     li.primary-menu ul li:hover {
       background: #99CA3C; }
 
@@ -1624,18 +1624,18 @@ li.vocational-menu {
 li.international-menu {
   background-color: #00B8B3; }
   li.international-menu:hover {
-    background-color: #00ccc6; }
+    background-color: #00ccc7; }
   li.international-menu ul {
-    background-color: #00ccc6; }
+    background-color: #00ccc7; }
     li.international-menu ul li:hover {
       background: #00B8B3; }
 
 li.theory-menu {
   background-color: #25ab68; }
   li.theory-menu:hover {
-    background-color: #29be73; }
+    background-color: #29be74; }
   li.theory-menu ul {
-    background-color: #29be73; }
+    background-color: #29be74; }
     li.theory-menu ul li:hover {
       background: #25ab68; }
 
@@ -1724,7 +1724,7 @@ ul.sub-menu {
   .category-vocational .entry-header .entry-title a {
     color: #633076; }
     .category-vocational .entry-header .entry-title a:hover {
-      color: #8d44a8; }
+      color: #8d45a9; }
 
 .category-motor-vehicle-technology .entry-header {
   border-left: 6px solid #633076; }
@@ -1733,7 +1733,7 @@ ul.sub-menu {
   .category-motor-vehicle-technology .entry-header .entry-title a {
     color: #633076; }
     .category-motor-vehicle-technology .entry-header .entry-title a:hover {
-      color: #8d44a8; }
+      color: #8d45a9; }
 
 .category-health-social-care .entry-header {
   border-left: 6px solid #633076; }
@@ -1742,7 +1742,7 @@ ul.sub-menu {
   .category-health-social-care .entry-header .entry-title a {
     color: #633076; }
     .category-health-social-care .entry-header .entry-title a:hover {
-      color: #8d44a8; }
+      color: #8d45a9; }
 
 .category-functional-skills .entry-header {
   border-left: 6px solid #633076; }
@@ -1751,7 +1751,7 @@ ul.sub-menu {
   .category-functional-skills .entry-header .entry-title a {
     color: #633076; }
     .category-functional-skills .entry-header .entry-title a:hover {
-      color: #8d44a8; }
+      color: #8d45a9; }
 
 .category-childcare .entry-header {
   border-left: 6px solid #633076; }
@@ -1789,7 +1789,7 @@ h1.site-title a:hover {
 #tertiary a {
   color: #fff; }
   #tertiary a:hover {
-    color: #00ccc6; }
+    color: #00ccc7; }
 
 p, li, span, blockquote {
   color: #454545; }
@@ -1867,7 +1867,7 @@ body.custom-background {
   background-color: #6C6869; }
   .post-navigation a:hover,
   .paging-navigation a:hover {
-    background-color: #787374;
+    background-color: #787475;
     color: white;
     border: none; }
 
@@ -1960,7 +1960,7 @@ a:active {
   font-family: "museo-slab", "pt-serif", Georgia, serif;
   background-color: #6C6869; }
   #secondary .btn:hover {
-    background-color: #787374; }
+    background-color: #787475; }
 
 body.category-secondary #secondary .btn,
 body.category-english #secondary .btn,
@@ -1991,7 +1991,7 @@ body.category-motor-vehicle-technology #secondary .btn {
 body.category-theory-of-knowledge #secondary .btn {
   background-color: #25ab68; }
   body.category-theory-of-knowledge #secondary .btn:hover {
-    background-color: #29be73; }
+    background-color: #29be74; }
 
 #content .no-widget-border {
   border: 0 solid;
