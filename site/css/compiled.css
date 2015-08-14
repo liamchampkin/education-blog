@@ -1818,7 +1818,7 @@ body.custom-background {
   z-index: 1; }
 
 .entry-header {
-  padding: 1.3334em 1.3334em 1em;
+  padding: 2.3334em 1.3334em 1em;
   border-top: 1px solid #D3D3D3;
   border-right: 1px solid #D3D3D3;
   background-color: #f9f9f9; }
@@ -1839,7 +1839,7 @@ body.custom-background {
   box-shadow: none; }
 
 .entry-content, .entry-summary {
-  padding: 30px;
+  padding: 2em;
   border-left: 1px solid #D3D3D3;
   border-right: 1px solid #D3D3D3;
   border-bottom: 1px solid #D3D3D3; }
@@ -1941,6 +1941,20 @@ input[type="url"] {
   -webkit-transition: 0.2s ease-in;
   transition: 0.2s ease-in; }
 
+#content #subscribe-email input {
+  width: 95%;
+  padding: 4px 6px;
+  margin-top: 10px; }
+
+article.forum .entry-content {
+  padding: 0; }
+
+#bbpress-forums ul.bbp-lead-topic, #bbpress-forums ul.bbp-topics, #bbpress-forums ul.bbp-forums, #bbpress-forums ul.bbp-replies, #bbpress-forums ul.bbp-search-results {
+  border: 0; }
+
+.bbp-breadcrumb {
+  margin: 1em 1.3334em 0.3em; }
+
 a {
   text-decoration: none; }
 
@@ -1949,9 +1963,9 @@ a:focus,
 a:active {
   text-decoration: none; }
 
-.entry-content a {
+.entry-content a, .entry-summary a {
   border-bottom: 1px solid #D3D3D3; }
-  .entry-content a img {
+  .entry-content a img, .entry-summary a img {
     border-bottom: none; }
 
 #secondary .btn {

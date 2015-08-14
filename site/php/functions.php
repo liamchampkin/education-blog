@@ -101,6 +101,15 @@ function motif_setup() {
 		'default-image' => get_template_directory_uri() . '/images/body-bg.png',
 	) ) );
 }
+
+// Replaces the excerpt "more" text by a link
+function new_excerpt_more($more) {
+       global $post;
+	return '...<br /><a class="moretag" href="'. get_permalink($post->ID) . '"> Read more</a>';
+}
+add_filter('excerpt_more', 'new_excerpt_more');
+
+
 add_action( 'after_setup_theme', 'motif_setup' );
 
 /**

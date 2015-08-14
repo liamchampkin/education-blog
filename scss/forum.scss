@@ -1,0 +1,13 @@
+article.forum{
+  .entry-content{
+    padding: 0;
+  }
+}
+
+#bbpress-forums ul.bbp-lead-topic, #bbpress-forums ul.bbp-topics, #bbpress-forums ul.bbp-forums, #bbpress-forums ul.bbp-replies, #bbpress-forums ul.bbp-search-results{
+  border: 0;
+}
+
+.bbp-breadcrumb{
+  margin: 1em 1.3334em 0.3em;
+}

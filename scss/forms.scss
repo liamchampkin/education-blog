@@ -43,4 +43,11 @@ input[type="url"] {
             transition: 0.2s ease-in;
 }
 
+#content{
+  #subscribe-email input {
+    width: 95%;
+    padding: 4px 6px;
+    margin-top: 10px;
+  }
+}
 
