@@ -11,14 +11,15 @@ $grey: 															#dadada;
 $body-background-color: 									#F0F0F0;
 $light-grey: 													#D3D3D3;
 $black:															#333333;
-$oupEmerald:													#25ab68;
+$oupEmerald:													#25ab68; 
 
 //psychology colours
-$psychology-green:											#4D8952;
-$psychology-green-lighter:									#DDEEDD;
-$psychology-black:											#222222;
+$psychology-green:                          			#4D8952;
+$psychology-green-lighter:                  			#DDEEDD;
+$psychology-black:                          			#222222;
+$psychology-green-darker:                   			#26632B;
 
-$border-color: 												$light-grey;
+$border-color: 												$light-grey; 
 $header-bg-color: 											#f9f9f9;
 
 //lighter colours for roll overs
@@ -31,34 +32,34 @@ $oupVioletLighter: 											$oupViolet / 0.9;
 $oupLightBlueLighter: 										$oupLightBlue / 0.9;
 
 //links
-$linkColour:                          $oupPink;
-$linkColourLighter:                   $linkColour /0.9;
-$menu-pop:                            11px;
-$main-navigation-font-size:           1.4rem;
+$linkColour:                          					$psychology-green;
+$linkColourLighter:                   					$linkColour /0.9;
+$menu-pop:                            					11px;
+$main-navigation-font-size:           					1.4rem;
 
 //subject Colours
-$home:                                $oupGrey;
-$primary:															$oupGreen;
-$secondary:                           $oupPink;
-$vocational:                          $oupViolet;
-$international:                       $oupLilac;
-$theory:                       				$oupEmerald;
+$home:                                					$oupGrey;
+$primary:														$oupGreen;
+$secondary:                           					$oupPink;
+$vocational:                          					$oupViolet;
+$international:                       					$oupLilac;
+$theory:                       							$oupEmerald;
 
-$english:                             $secondary;
-$maths:                               $secondary;
-$mfl:                                 $secondary;
-$science:                             $secondary;
-
-$childcare:                           $vocational;
-$functional-skills:                   $vocational;
-$health-social:                       $vocational;
-$motor-vehicle:                       $vocational;
-$salon:                               $vocational;
-$btec:                                $vocational;
-$build:                               $vocational;
-$footer-widget-bg:                    #282828;
-$footer-widget-list-border:           $footer-widget-bg / 0.7;
-
+$english:                             					$secondary;
+$maths:                               					$secondary;
+$mfl:                                 					$secondary;
+$science:                             					$secondary;
+					
+$childcare:                           					$vocational;
+$functional-skills:                   					$vocational;
+$health-social:                       					$vocational;
+$motor-vehicle:                       					$vocational;
+$salon:                               					$vocational;
+$btec:                                					$vocational;
+$build:                               					$vocational;
+$footer-widget-bg:                    					#282828;
+$footer-widget-list-border:           					$footer-widget-bg / 0.7;
+					
 //subject hover Colours
 $home-hover:                          $home                              / 0.9; 
 $english-hover:                       $english                           / 0.9; 
@@ -79,7 +80,13 @@ $build-hover:                         $build                             / 0.7;
 $linkColour: 													$oupPink;
 $linkColourHover: 										$oupPinkLighter;
 $footerlinkColour: 										#fff;
-$footerlinkColourHover: 							$oupLilacLighter;
+$footerlinkColourHover: 							$oupLilacLighter; 
+
+// psychology links (turn off)
+$linkColour: 													$psychology-green;
+$linkColourHover: 											$linkColour / 0.7;
+$footerlinkColour: 											#fff;
+$footerlinkColourHover: 									$psychology-green; 
 
 
 //fonts

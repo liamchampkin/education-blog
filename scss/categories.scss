@@ -1,3 +1,7 @@
+.entry-header{ //default
+  border-left: $title-border-left solid $home;
+}
+
 .page-template-default{
   .entry-header{
     border-left: $title-border-left solid $home;

@@ -1,4 +1,4 @@
-li.home-menu{
+li.home-menu, li.menu-item{ //default background-colour
   background-color: $home;
   &:hover{
     background-color: $home / 0.9;
@@ -137,3 +137,4 @@ ul.sub-menu{
 .menu-toggle{
   color: $linkColour !important;
 }
+
