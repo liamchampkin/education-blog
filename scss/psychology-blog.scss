@@ -113,6 +113,23 @@ $psychology-menu-colour:                    $psychology-green-darker;
     }
   }
  }
+
+ li.menu-item:nth-of-type(8){
+  $psychology-menu-colour-8: $psychology-menu-colour / 0.65;
+
+  background-color: $psychology-menu-colour-8;
+  &:hover{
+    background-color: $psychology-menu-colour-8 / 0.95;
+  }
+  ul {
+    background-color: $psychology-menu-colour-8 /0.95;
+    li{
+      &:hover{
+        background: $psychology-menu-colour-8;
+      }
+    }
+  }
+ }
   .entry-header{
     border-left: $title-border-left solid $psychology-green;
     a:hover{

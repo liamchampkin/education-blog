@@ -2,7 +2,7 @@ p, li, blockquote, span{
 	font-family: $font-stack;
 }
 
-.entry-content{
+.entry-content, .entry-summary{
   p, ul{
     font-size: $p-font-size;
     line-height: $p-line-height;

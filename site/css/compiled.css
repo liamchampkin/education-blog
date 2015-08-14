@@ -1838,7 +1838,7 @@ body.custom-background {
 .hentry {
   box-shadow: none; }
 
-.entry-content {
+.entry-content, .entry-summary {
   padding: 30px;
   border-left: 1px solid #D3D3D3;
   border-right: 1px solid #D3D3D3;
@@ -2003,11 +2003,11 @@ body.category-theory-of-knowledge #secondary .btn {
 p, li, blockquote, span {
   font-family: "pt-serif"; }
 
-.entry-content p, .entry-content ul {
+.entry-content p, .entry-content ul, .entry-summary p, .entry-summary ul {
   font-size: 1.2em;
   line-height: 1.7;
   margin-bottom: 1.5em; }
-.entry-content li {
+.entry-content li, .entry-summary li {
   margin-bottom: 0.5em; }
 
 h1 {
@@ -2414,6 +2414,14 @@ h1.site-title {
     background-color: #399440; }
     .psychology-blog li.menu-item:nth-of-type(7) ul li:hover {
       background: #368d3d; }
+.psychology-blog li.menu-item:nth-of-type(8) {
+  background-color: #3a9842; }
+  .psychology-blog li.menu-item:nth-of-type(8):hover {
+    background-color: #3da045; }
+  .psychology-blog li.menu-item:nth-of-type(8) ul {
+    background-color: #3da045; }
+    .psychology-blog li.menu-item:nth-of-type(8) ul li:hover {
+      background: #3a9842; }
 .psychology-blog .entry-header {
   border-left: 6px solid #4D8952; }
   .psychology-blog .entry-header a:hover {
