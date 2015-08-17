@@ -1,4 +1,4 @@
-article.forum{
+article.forum, article.topic{
   .entry-content{
     padding: 0;
   }
@@ -10,4 +10,19 @@ article.forum{
 
 .bbp-breadcrumb{
   margin: 1em 1.3334em 0.3em;
+}
+
+div.bbp-template-notice.info{
+  border-top: 1px solid #cee1ef;
+  border-bottom: 1px solid #cee1ef;
+  border-left: 0;
+  border-right: 0;
+}
+
+div.bbp-template-notice, div.indicator-hint{
+  border-radius: 0;
+}
+
+.bbp-search-form{
+  margin: 8px 8px 0 0;
 }
