@@ -1,34 +1,54 @@
 <?php
 /**
- * The template for displaying the footer.
+ * The Header for our theme.
+ *
+ * Displays all of the <head> section and everything up till <main id="main">
  *
  * @package Motif
  */
-?>
+?><!DOCTYPE html>
+<html <?php language_attributes(); ?>>
+<head>
+<meta charset="<?php bloginfo( 'charset' ); ?>">
+<meta name="viewport" content="width=device-width">
+<title><?php wp_title( '|', true, 'right' ); ?></title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+<script src="//use.typekit.net/nbf3iew.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
 
-	</div><!-- #content -->
+<?php wp_head(); ?>
+</head>
 
-	<?php get_sidebar( 'footer' ); ?>
+<body <?php body_class(); ?>>
+<div id="page" class="hfeed site psychology-blog">
+	<?php do_action( 'before' ); ?>
+	<header id="masthead" class="site-header" role="banner">
 
-	<footer id="colophon" class="site-footer">
+		<div class="site-branding">
+			<?php if ( get_header_image() ) : ?>
+			<div class="site-image">
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home" class="header-image-link">
+					<img src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="" />
+				</a>
+			</div><!-- .header-image -->
+			<?php endif; ?>
 
-		<?php if ( has_nav_menu( 'secondary' ) ) : ?>
-		<div id="footer-navbar" class="footer-navbar">
-			<nav id="secondary-navigation" class="subordinate-navigation" role="navigation">
-				<?php wp_nav_menu( array( 'theme_location' => 'secondary', 'container' => false, 'fallback_cb' => false, 'depth' => 1 ) ); ?>
-			</nav><!-- #secondary-navigation -->
-		</div><!-- #footer-navbar -->
-		<?php endif; ?>
+			<?php motif_the_site_logo(); ?>
 
-		<div class="site-info"  role="contentinfo">
-		<?php echo date("Y")?> <a href="http://oup.com">Oxford University Press</a>
-<!-- 			<span class="sep"> | </span> -->
-		</div><!-- .site-info -->
+			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 
-	</footer><!-- #colophon -->
-</div><!-- #page -->
+			<?php if ( '' != get_bloginfo( 'description' ) ) : ?>
+			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+			<?php endif; ?>
+		</div><!-- .site-branding -->
 
-<?php wp_footer(); ?>
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<h1 class="menu-toggle"><?php _e( 'Menu', 'motif' ); ?></h1>
+			<div class="screen-reader-text skip-link"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'motif' ); ?>"><?php _e( 'Skip to content', 'motif' ); ?></a></div>
 
-</body>
-</html>
+			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+		</nav><!-- #site-navigation -->
+	</header><!-- #masthead -->
+
+	<div id="content" class="site-content">
