@@ -231,9 +231,13 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
+  .site {
+    margin: 0 auto;
+  }
   .site-branding {
     text-align: center;
+    padding: 20px 0
   }
   .menu-toggle {
     color: #fff;
@@ -321,6 +325,14 @@
     transition: 0 ease 0s;
     width: 100%;
     list-style-type: none;
+  }
+  .main-title {
+      width: 100%;
+  }
+  .oup-logo {
+      float: none;
+      margin: 0 auto;
+      width: 100px;
   }
 }
 

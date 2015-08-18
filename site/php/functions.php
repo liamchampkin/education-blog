@@ -1,8 +1,8 @@
 <?php
 /**
- * Motif functions and definitions
+ * Disable requests to wp.org repository for this theme.
  *
- * @package Motif
+ * @since 1.0.0
  */
 
 /**
