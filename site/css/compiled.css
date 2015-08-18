@@ -1672,7 +1672,7 @@ ul.sub-menu {
     top: 0px !important; }
 
 .menu-toggle {
-  color: #4D8952 !important; }
+  color: #D11B6D !important; }
 
 .entry-header {
   border-left: 6px solid #6C6869; }
@@ -1774,21 +1774,21 @@ ul.sub-menu {
   display: none; }
 
 h1.site-title a:hover {
-  color: #6ec475; }
+  color: #e81e79; }
 
 .site-content a, #tertiary a {
-  color: #4D8952; }
+  color: #D11B6D; }
   .site-content a:hover, #tertiary a:hover {
     text-decoration: none !important;
-    color: #6ec475; }
+    color: #e81e79; }
 
 #secondary a {
-  color: #4D8952; }
+  color: #D11B6D; }
 
 #tertiary a {
   color: #fff; }
   #tertiary a:hover {
-    color: #4D8952; }
+    color: #00ccc7; }
 
 p, li, span, blockquote {
   color: #454545; }
@@ -1874,12 +1874,12 @@ body.custom-background {
   color: #D3D3D3; }
 
 #infinite-handle span {
-  background-color: #4D8952;
+  background-color: #D11B6D;
   color: #fff;
   box-shadow: none; }
 
 #infinite-handle span:hover {
-  background-color: #6ec475; }
+  background-color: #e81e79; }
 
 span#bsub-text {
   color: white; }
@@ -1910,9 +1910,9 @@ span#bsub-text {
 button, html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  border: 1px solid #4D8952;
+  border: 1px solid #D11B6D;
   font-size: 1em;
-  color: #4D8952;
+  color: #D11B6D;
   transition: background-color 0.5s ease;
   padding: 0.6em;
   cursor: pointer;
@@ -1925,7 +1925,7 @@ input[type="submit"] {
   button:hover, html input[type="button"]:hover,
   input[type="reset"]:hover,
   input[type="submit"]:hover {
-    background-color: #6ec475;
+    background-color: #e81e79;
     color: white; }
 
 input#subscribe-field, input.search-field {
@@ -2403,79 +2403,5 @@ h1.site-title {
 
   .edit-link {
     float: left !important; } }
-.psychology-blog li.menu-item:nth-of-type(1) {
-  background-color: #26632B; }
-  .psychology-blog li.menu-item:nth-of-type(1):hover {
-    background-color: #2a6e30; }
-  .psychology-blog li.menu-item:nth-of-type(1) ul {
-    background-color: #2a6e30; }
-    .psychology-blog li.menu-item:nth-of-type(1) ul li:hover {
-      background: #26632B; }
-.psychology-blog li.menu-item:nth-of-type(2) {
-  background-color: #28682d; }
-  .psychology-blog li.menu-item:nth-of-type(2):hover {
-    background-color: #2a6d2f; }
-  .psychology-blog li.menu-item:nth-of-type(2) ul {
-    background-color: #2a6d2f; }
-    .psychology-blog li.menu-item:nth-of-type(2) ul li:hover {
-      background: #28682d; }
-.psychology-blog li.menu-item:nth-of-type(3) {
-  background-color: #2a6e30; }
-  .psychology-blog li.menu-item:nth-of-type(3):hover {
-    background-color: #2c7433; }
-  .psychology-blog li.menu-item:nth-of-type(3) ul {
-    background-color: #2c7433; }
-    .psychology-blog li.menu-item:nth-of-type(3) ul li:hover {
-      background: #2a6e30; }
-.psychology-blog li.menu-item:nth-of-type(4) {
-  background-color: #2d7433; }
-  .psychology-blog li.menu-item:nth-of-type(4):hover {
-    background-color: #2f7a36; }
-  .psychology-blog li.menu-item:nth-of-type(4) ul {
-    background-color: #2f7a36; }
-    .psychology-blog li.menu-item:nth-of-type(4) ul li:hover {
-      background: #2d7433; }
-.psychology-blog li.menu-item:nth-of-type(5) {
-  background-color: #307c36; }
-  .psychology-blog li.menu-item:nth-of-type(5):hover {
-    background-color: #338339; }
-  .psychology-blog li.menu-item:nth-of-type(5) ul {
-    background-color: #338339; }
-    .psychology-blog li.menu-item:nth-of-type(5) ul li:hover {
-      background: #307c36; }
-.psychology-blog li.menu-item:nth-of-type(6) {
-  background-color: #338439; }
-  .psychology-blog li.menu-item:nth-of-type(6):hover {
-    background-color: #368b3c; }
-  .psychology-blog li.menu-item:nth-of-type(6) ul {
-    background-color: #368b3c; }
-    .psychology-blog li.menu-item:nth-of-type(6) ul li:hover {
-      background: #338439; }
-.psychology-blog li.menu-item:nth-of-type(7) {
-  background-color: #368d3d; }
-  .psychology-blog li.menu-item:nth-of-type(7):hover {
-    background-color: #399440; }
-  .psychology-blog li.menu-item:nth-of-type(7) ul {
-    background-color: #399440; }
-    .psychology-blog li.menu-item:nth-of-type(7) ul li:hover {
-      background: #368d3d; }
-.psychology-blog li.menu-item:nth-of-type(8) {
-  background-color: #3a9842; }
-  .psychology-blog li.menu-item:nth-of-type(8):hover {
-    background-color: #3da045; }
-  .psychology-blog li.menu-item:nth-of-type(8) ul {
-    background-color: #3da045; }
-    .psychology-blog li.menu-item:nth-of-type(8) ul li:hover {
-      background: #3a9842; }
-.psychology-blog .entry-header {
-  border-left: 6px solid #4D8952; }
-  .psychology-blog .entry-header a:hover {
-    color: #6ec475; }
-  .psychology-blog .entry-header .entry-title a {
-    color: #4D8952; }
-    .psychology-blog .entry-header .entry-title a:hover {
-      color: #6ec475; }
-.psychology-blog .site-title > a {
-  color: #4D8952; }
 
 /*# sourceMappingURL=compiled.css.map */

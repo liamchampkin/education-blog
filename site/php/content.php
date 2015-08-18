@@ -40,6 +40,7 @@
 	<?php elseif ( is_archive() || is_home() ) : // Only display Excerpts for home and archive ?>
 	<div class="entry-summary">
 		<?php the_excerpt(); ?>
+		<a class="moretag" href="<?php the_permalink(); ?>"> Read more</a>
 	</div><!-- .entry-summary -->
 	<?php else : ?>
 	<div class="entry-content">
