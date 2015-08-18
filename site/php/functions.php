@@ -102,6 +102,12 @@ function motif_setup() {
 	) ) );
 }
 
+add_filter('widget_tag_cloud_args','set_number_tags');
+function set_number_tags($args) {
+    $args = array('number'    => 100);
+    return $args;
+}
+
 // Replaces the excerpt "more" text by a link
 function new_excerpt_more($more) {
        global $post;
