@@ -23,7 +23,7 @@ h1.site-title{
     color: $linkColour;
   }
 }
-
+ 
 #tertiary{
   a{
     color: $footerlinkColour;
@@ -37,7 +37,7 @@ p, li, span, blockquote{
   color: #454545;
 }
 
-body.custom-background {
+body, body.custom-background {
   background-color: $body-background-color;
   background-image: none !important; 
   // overiding some strange css behaviour

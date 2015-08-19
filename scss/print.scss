@@ -13,6 +13,10 @@ p, li, blockquote, span{
   }
 }
 
+.entry-summary p{
+  margin-bottom: 0.8em;
+}
+
 h1{
 	font-family: $title-font-stack;
 }
@@ -25,4 +29,9 @@ h1.site-title {
 .site-description {
   line-height: 1;
   margin-bottom: 15px;
+}
+
+a.moretag{
+  font-size: $p-font-size;
+  font-family: $font-stack;
 }

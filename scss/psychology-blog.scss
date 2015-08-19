@@ -147,4 +147,17 @@ $psychology-menu-colour:                    $psychology-green-darker;
   .site-title > a {
     color: $psychology-green;
   }
+
+  @media screen and (max-width: 1000px) {
+    .sub-menu{
+      background-color: transparent !important;
+      li{
+        background-color: transparent;
+      }
+      li.menu-item:nth-of-type(odd),li.menu-item:nth-of-type(even){
+        background-color: transparent;
+      }
+    } 
+  }
 }
+

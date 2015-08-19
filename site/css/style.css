@@ -1974,6 +1974,10 @@ div.bbp-template-notice, div.indicator-hint {
 .bbp-search-form {
   margin: 8px 8px 0 0; }
 
+#bbpress-forums div.bbp-topic-tags {
+  margin-right: 1.5em;
+  float: right; }
+
 a {
   text-decoration: none; }
 
@@ -2043,6 +2047,9 @@ p, li, blockquote, span {
 .entry-content li, .entry-summary li {
   margin-bottom: 0.5em; }
 
+.entry-summary p {
+  margin-bottom: 0.8em; }
+
 h1 {
   font-family: "museo-slab", "pt-serif", Georgia, serif; }
 
@@ -2053,6 +2060,10 @@ h1.site-title {
 .site-description {
   line-height: 1;
   margin-bottom: 15px; }
+
+a.moretag {
+  font-size: 1.2em;
+  font-family: "pt-serif"; }
 
 /* = Media Queries
 ----------------------------------------------- */
@@ -2477,5 +2488,12 @@ h1.site-title {
       color: #6ec475; }
 .psychology-blog .site-title > a {
   color: #4D8952; }
+@media screen and (max-width: 1000px) {
+  .psychology-blog .sub-menu {
+    background-color: transparent !important; }
+    .psychology-blog .sub-menu li {
+      background-color: transparent; }
+    .psychology-blog .sub-menu li.menu-item:nth-of-type(odd), .psychology-blog .sub-menu li.menu-item:nth-of-type(even) {
+      background-color: transparent; } }
 
-/*# sourceMappingURL=compiled.css.map */
+/*# sourceMappingURL=style.css.map */
