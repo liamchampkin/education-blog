@@ -253,6 +253,8 @@ function motif_scripts_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'motif_scripts_styles' );
 
+add_theme_support( 'post-thumbnails' );
+
 /**
  * Enqueue Google fonts style to admin screen for custom header display.
  */
