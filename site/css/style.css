@@ -1690,10 +1690,14 @@ object {
     .category-primary .entry-header .entry-title a:hover {
       color: #8bba33; }
 
-li.home-menu, li.menu-item {
+li.home-menu, li.grey-menu {
   background-color: #6C6869; }
-  li.home-menu:hover, li.menu-item:hover {
+  li.home-menu:hover, li.grey-menu:hover {
     background-color: #787475; }
+  li.home-menu ul, li.grey-menu ul {
+    background-color: #787475; }
+    li.home-menu ul li:hover, li.grey-menu ul li:hover {
+      background: #6C6869; }
 
 li.primary-menu {
   background-color: #99CA3C; }

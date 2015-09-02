@@ -1,7 +1,15 @@
-li.home-menu, li.menu-item{ //default background-colour
+li.home-menu, li.grey-menu{ //default background-colour
   background-color: $home;
   &:hover{
     background-color: $home / 0.9;
+  }
+  ul {
+    background-color: $home /0.9;
+    li{
+      &:hover{
+        background: $home;
+      }
+    }
   }
 }
 
