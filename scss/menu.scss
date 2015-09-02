@@ -138,3 +138,168 @@ ul.sub-menu{
   color: $linkColour !important;
 }
 
+@if $theme == "psychology" {
+
+  $psychology-menu-colour:  $psychology-green-darker;
+
+  //psycholgy-menu
+  .psychology-blog{
+   li.menu-item:nth-of-type(1){
+    background-color: $psychology-menu-colour;
+    &:hover{
+      background-color: $psychology-menu-colour / 0.9;
+    }
+    ul {
+      background-color: $psychology-menu-colour /0.9;
+      li{
+        &:hover{
+          background: $psychology-menu-colour;
+        }
+      }
+    }
+   }
+   li.menu-item:nth-of-type(2){
+    $psychology-menu-colour-2: $psychology-menu-colour / 0.95;
+
+    background-color: $psychology-menu-colour-2;
+    &:hover{
+      background-color: $psychology-menu-colour-2 / 0.95;
+    }
+    ul {
+      background-color: $psychology-menu-colour-2 /0.95;
+      li{
+        &:hover{
+          background: $psychology-menu-colour-2;
+        }
+      }
+    }
+   }
+   li.menu-item:nth-of-type(3){
+    $psychology-menu-colour-3: $psychology-menu-colour / 0.9;
+
+    background-color: $psychology-menu-colour-3;
+    &:hover{
+      background-color: $psychology-menu-colour-3 / 0.95;
+    }
+    ul {
+      background-color: $psychology-menu-colour-3 /0.95;
+      li{
+        &:hover{
+          background: $psychology-menu-colour-3;
+        }
+      }
+    }
+   }
+   li.menu-item:nth-of-type(4){
+    $psychology-menu-colour-4: $psychology-menu-colour / 0.85;
+
+    background-color: $psychology-menu-colour-4;
+    &:hover{
+      background-color: $psychology-menu-colour-4 / 0.95;
+    }
+    ul {
+      background-color: $psychology-menu-colour-4 /0.95;
+      li{
+        &:hover{
+          background: $psychology-menu-colour-4;
+        }
+      }
+    }
+   }
+   li.menu-item:nth-of-type(5){
+    $psychology-menu-colour-5: $psychology-menu-colour / 0.8;
+
+    background-color: $psychology-menu-colour-5;
+    &:hover{
+      background-color: $psychology-menu-colour-5 / 0.95;
+    }
+    ul {
+      background-color: $psychology-menu-colour-5 /0.95;
+      li{
+        &:hover{
+          background: $psychology-menu-colour-5;
+        }
+      }
+    }
+   }
+   li.menu-item:nth-of-type(6){
+    $psychology-menu-colour-6: $psychology-menu-colour / 0.75;
+
+    background-color: $psychology-menu-colour-6;
+    &:hover{
+      background-color: $psychology-menu-colour-6 / 0.95;
+    }
+    ul {
+      background-color: $psychology-menu-colour-6 /0.95;
+      li{
+        &:hover{
+          background: $psychology-menu-colour-6;
+        }
+      }
+    }
+   }
+   li.menu-item:nth-of-type(7){
+    $psychology-menu-colour-7: $psychology-menu-colour / 0.7;
+
+    background-color: $psychology-menu-colour-7;
+    &:hover{
+      background-color: $psychology-menu-colour-7 / 0.95;
+    }
+    ul {
+      background-color: $psychology-menu-colour-7 /0.95;
+      li{
+        &:hover{
+          background: $psychology-menu-colour-7;
+        }
+      }
+    }
+   }
+
+   li.menu-item:nth-of-type(8){
+    $psychology-menu-colour-8: $psychology-menu-colour / 0.65;
+
+    background-color: $psychology-menu-colour-8;
+    &:hover{
+      background-color: $psychology-menu-colour-8 / 0.95;
+    }
+    ul {
+      background-color: $psychology-menu-colour-8 /0.95;
+      li{
+        &:hover{
+          background: $psychology-menu-colour-8;
+        }
+      }
+    }
+   }
+    .entry-header{
+      border-left: $title-border-left solid $psychology-green;
+      a:hover{
+        color: $psychology-green / 0.7;
+      }
+      .entry-title{
+        a{
+          color: $psychology-green;
+          &:hover{
+            color: $psychology-green / 0.7;
+          }
+        }
+      }
+    }
+    .site-title > a {
+      color: $psychology-green;
+    }
+
+    @media screen and (max-width: 1000px) {
+      .sub-menu{
+        background-color: transparent !important;
+        li{
+          background-color: transparent;
+        }
+        li.menu-item:nth-of-type(odd),li.menu-item:nth-of-type(even){
+          background-color: transparent;
+        }
+      } 
+    }
+  }
+}
+

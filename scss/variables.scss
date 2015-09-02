@@ -1,3 +1,7 @@
+// THEMES
+/// "education" & "psychology"
+$theme:															"education";
+
 //colours
 $oupGrey:  														#6C6869;
 $oupGreen: 														#99CA3C; 
@@ -83,10 +87,13 @@ $footerlinkColour: 										#fff;
 $footerlinkColourHover: 							$oupLilacLighter; 
 
 // // psychology links (turn off)
-$linkColour: 													$psychology-green;
-$linkColourHover: 											$linkColour / 0.7;
-$footerlinkColour: 											#fff;
-$footerlinkColourHover: 									$psychology-green; 
+@if $theme == "psychology" {
+     	$linkColour: 													$psychology-green;
+		$linkColourHover: 											$linkColour / 0.7;
+		$footerlinkColour: 											#fff;
+		$footerlinkColourHover: 									$psychology-green;
+  }
+
 
 
 //fonts

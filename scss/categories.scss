@@ -179,3 +179,21 @@
     }
   }
 } 
+
+.category-primary{
+  $primary-darken: 5%;
+  .entry-header{
+    border-left: $title-border-left solid $primary;
+    a:hover{
+      color: darken($primary, $primary-darken);
+    }
+    .entry-title{
+      a{
+        color: darken($primary, $primary-darken);
+        &:hover{
+          color: darken($primary, $primary-darken);
+        }
+      }
+    }
+  }
+} 
