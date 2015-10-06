@@ -1,3 +1,23 @@
+.btn,
+button,
+html input[type="button"],
+input[type="submit"]{
+  border: 1px solid $linkColour;
+  font-size: 1em;
+  color: $linkColour;
+  transition: background-color 0.5s ease;
+  padding: $input-padding;
+  cursor: pointer; /* Improves usability and consistency of cursor style between image-type 'input' and others */
+  text-transform: uppercase;
+  line-height: 1.5;
+  -webkit-appearance: button; /* Corrects inability to style clickable 'input' types in iOS */
+  background-color: white;
+  &:hover{
+    background-color: $linkColourHover;
+    color: white;
+  } 
+}
+
 #secondary .btn{
   color: white;
   display: block;

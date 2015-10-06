@@ -81,10 +81,13 @@ $btec-hover:                          $btec                              / 0.7;
 $build-hover:                         $build                             / 0.7;   
 
 //links
-$linkColour: 													$oupPink;
-$linkColourHover: 										$oupPinkLighter;
-$footerlinkColour: 										#fff;
+$linkColour: 											$oupPink;
+$linkColourHover: 									$oupPinkLighter;
+$footerlinkColour: 									#fff;
 $footerlinkColourHover: 							$oupLilacLighter; 
+
+$input-padding:										4px 6px 2px; //for buttons and input fields
+$input-border:											#AAAAAA;
 
 // // psychology links (turn off)
 @if $theme == "psychology" {

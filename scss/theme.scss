@@ -290,24 +290,6 @@ input::-moz-focus-inner { /* Corrects inner padding and border displayed oddly i
 	padding: 0;
 }
 
-.widget input[type="text"],
-.widget input[type="email"],
-.widget input[type="password"],
-.widget input[type="search"],
-.widget input[type="url"] {
-	background-color: #efefef;
-}
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="password"]:focus,
-input[type="search"]:focus,
-input[type="url"]:focus,
-textarea:focus {
-	background-color: #e9e9e9;
-	outline: none;
-    -webkit-transition: 0.2s ease-in;
-            transition: 0.2s ease-in;
-}
 textarea {
 	background-color: #f9f9f9;
 	border: 0;
