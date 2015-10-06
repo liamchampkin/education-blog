@@ -1690,6 +1690,17 @@ object {
     .category-primary .entry-header .entry-title a:hover {
       color: #8bba33; }
 
+.stc-subscribe-wrapper {
+  background-color: #f9f9f9;
+  border: 1px solid #D3D3D3;
+  padding: 2em; }
+  .stc-subscribe-wrapper h3 {
+    margin: 1.125em 0; }
+  .stc-subscribe-wrapper label {
+    line-height: 2; }
+  .stc-subscribe-wrapper .btn {
+    margin-top: 20px; }
+
 li.home-menu, li.grey-menu {
   background-color: #6C6869; }
   li.home-menu:hover, li.grey-menu:hover {

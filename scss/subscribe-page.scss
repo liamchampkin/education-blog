@@ -1,0 +1,17 @@
+@if $theme == "education" {
+	.stc-subscribe-wrapper{
+		background-color: $header-bg-color;
+   	border: 1px solid $border-color;
+   	padding: 2em;
+
+   	h3{
+   		margin: 1.125em 0;
+   	}
+   	label{
+   		line-height: 2;
+   	}
+   	.btn{
+			margin-top: 20px;
+   	}
+	}
+}
