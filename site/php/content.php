@@ -7,12 +7,24 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 	<header class="entry-header">
-		<?php if ( is_single() ) : ?>
-		<h1 class="entry-title"><?php the_title(); ?></h1>
-		<?php else : ?>
-		<h1 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
+		<?php if( get_field('author_avatar') ): ?>
+			<div class="avatar-container">
+				<div class="title-author-avatar">
+					<img src="<?php the_field('author_avatar'); ?>" />
+				</div>
+			</div>
 		<?php endif; ?>
-
+		<?php if( get_field('author_avatar') ): ?>
+		<div class="entry-title-container title-with-avatar">
+			<?php else : ?>
+		<div class="entry-title-container">
+		<?php endif; ?>
+			<?php if ( is_single() ) : ?>
+			<h1 class="entry-title"><?php the_title(); ?></h1>
+			<?php else : ?>
+			<h1 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
+			<?php endif; ?>
+		
 		<?php if ( 'post' == get_post_type() ) : ?>
 		<div class="entry-meta">
 			<?php motif_entry_meta(); ?>
@@ -24,6 +36,7 @@
 			<?php edit_post_link( __( 'Edit', 'motif' ), '<span class="edit-link">', '</span>' ); ?>
 
 		</div><!-- .entry-meta -->
+		</div><!-- .title-container -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 

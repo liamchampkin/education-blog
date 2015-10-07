@@ -1683,6 +1683,19 @@ object {
   .stc-subscribe-wrapper .btn {
     margin-top: 20px; }
 
+.title-with-avatar {
+  padding-left: 60px; }
+
+.avatar-container {
+  left: 19px;
+  position: absolute; }
+
+.title-author-avatar {
+  border-radius: 50%;
+  height: 60px;
+  overflow: hidden;
+  width: 60px; }
+
 li.home-menu, li.grey-menu {
   background-color: #6C6869; }
   li.home-menu:hover, li.grey-menu:hover {

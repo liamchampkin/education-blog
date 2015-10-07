@@ -1,0 +1,15 @@
+.title-with-avatar{
+	padding-left: 60px;
+}
+
+.avatar-container{
+	left: 19px;
+	position: absolute;
+}
+
+.title-author-avatar {
+   border-radius: 50%;
+   height: $avatar-small;
+   overflow: hidden;
+   width: $avatar-small;
+}

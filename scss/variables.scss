@@ -89,6 +89,8 @@ $footerlinkColourHover: 							$oupLilacLighter;
 $input-padding:										4px 6px 2px; //for buttons and input fields
 $input-border:											#AAAAAA;
 
+$avatar-small:											60px;
+
 // // psychology links (turn off)
 @if $theme == "psychology" {
      	$linkColour: 													$psychology-green;
