@@ -169,7 +169,7 @@
     a:hover{
       color: $theory;
     }
-    .entry-title{
+    .entry-title,{
       a{
         color: $theory;
         &:hover{
@@ -185,11 +185,11 @@
   .entry-header{
     border-left: $title-border-left solid $primary;
     a:hover{
-      color: darken($primary, $primary-darken);
+      color: $primary-darker;
     }
     .entry-title{
       a{
-        color: darken($primary, $primary-darken);
+        color: $primary-darker;
         &:hover{
           color: darken($primary, $primary-darken);
         }

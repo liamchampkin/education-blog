@@ -128,24 +128,6 @@ body, body.custom-background {
   }
 }
 
-.post-navigation{
-  .nav-previous{
-
-  }
-}
-
-.post-navigation a, 
-.paging-navigation a {
-  color: white;
-  background-color: $oupGrey;
-  &:hover{
-    background-color: $oupGreyLighter;
-    color: white;
-    border: none;
-  }
-
-}
-
 .milestone-header{
   span.date{
     color: $light-grey;

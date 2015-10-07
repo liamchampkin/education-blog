@@ -1,4 +1,4 @@
-.btn,
+
 button,
 html input[type="button"],
 input[type="submit"]{
@@ -19,48 +19,119 @@ input[type="submit"]{
 }
 
 #secondary .btn{
-  color: white;
+  background-color: white;
   display: block;
   font-size: 1em;
   padding: 1em;
   text-align: center;
   font-family: $title-font-stack;
-  background-color: $home;
+  border: 1px solid $home;
+  color: $home;
   &:hover{
     background-color: $home /0.9;
+    color: white;
   }
 }
 
-body.category-secondary #secondary .btn,
-body.category-english #secondary .btn,
-body.category-geography #secondary .btn,
-body.category-maths #secondary .btn,
-body.category-mfl #secondary .btn{
-  background-color: $secondary;
+body.secondary #secondary .btn,
+body.english #secondary .btn,
+body.geography #secondary .btn,
+body.maths #secondary .btn,
+body.mfl #secondary .btn{
+  color: $secondary;
+  border: 1px solid $secondary;
   &:hover{
+    color: white;
     background-color: $secondary /0.9;
   }
 }
 
-body.category-vocational #secondary .btn,
-body.category-childcare #secondary .btn,
-body.category-functional-skills #secondary .btn,
-body.category-health-social-care #secondary .btn,
-body.category-motor-vehicle-technology #secondary .btn{
-  background-color: $vocational;
+body.vocational #secondary .btn,
+body.childcare #secondary .btn,
+body.functional-skills #secondary .btn,
+body.health-social-care #secondary .btn,
+body.motor-vehicle-technology #secondary .btn{
+  color: $vocational;
+  border: 1px solid $vocational;
   &:hover{
+    color: white;
     background-color: $vocational /0.9; 
   }
 }
 
-body.category-theory-of-knowledge #secondary .btn{
-  background-color: $theory;
+body.theory-of-knowledge #secondary .btn{
+  color: $theory;
+  border: 1px solid $theory;
   &:hover{
+    color: white;
     background-color: $theory /0.9;
+  }
+}
+
+body.primary #secondary .btn,
+body.primary #secondary .btn{
+  color: $primary-darker;
+  border: 1px solid $primary;
+  &:hover{
+    color: white;
+    background-color: $primary /0.9;
   }
 }
 
 #content .no-widget-border {
   border: 0 solid;
   padding: 0;
+}
+
+.btn:before,
+.btn:after{
+  display: inline-block;
+  font-family: Genericons;
+  font-size: 1.3em;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: text-bottom;
+  -webkit-font-smoothing: antialiased;
+  padding-right: 5px;
+}
+
+.email-button{
+  &:before{
+    content: "\f410";
+    position: relative;
+  }
+}
+
+.rss-button{
+  &:before{
+    content: "\f413";
+    position: relative;
+  }
+}
+
+.external-button{
+  &:before{
+    padding-right: 0;
+  }
+  &:after{
+    content: "\f442";
+    position: relative;
+    padding-left: 5px;
+  }
+}
+
+.post-navigation a, 
+.paging-navigation a {
+  color: $home;
+  background-color: white;
+  border: 1px solid $home;
+  text-transform: lowercase;
+  box-shadow: none; 
+  &:hover{
+    background-color: $oupGreyLighter;
+    color: white;
+    border: none;
+    border: 1px solid $home;
+  }
+
 }

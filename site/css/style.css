@@ -555,7 +555,6 @@ textarea {
   font-size: 1.6153rem;
   margin-bottom: 0.375em; }
 
-.single .entry-title,
 .page .entry-title {
   margin-bottom: 0; }
 
@@ -848,8 +847,7 @@ object {
   color: #777;
   font-size: 21px;
   font-size: 1.6153rem;
-  padding: 15px 5px;
-  text-align: center; }
+  padding: 15px 5px; }
 
 .comment-list {
   margin-left: 0; }
@@ -1666,9 +1664,9 @@ object {
 .category-primary .entry-header {
   border-left: 6px solid #99CA3C; }
   .category-primary .entry-header a:hover {
-    color: #8bba33; }
+    color: #7ca62d; }
   .category-primary .entry-header .entry-title a {
-    color: #8bba33; }
+    color: #7ca62d; }
     .category-primary .entry-header .entry-title a:hover {
       color: #8bba33; }
 
@@ -1807,7 +1805,7 @@ h1.site-title a:hover {
 #tertiary a {
   color: #fff; }
   #tertiary a:hover {
-    color: #00ccc7; }
+    color: #99CA3C; }
 
 p, li, span, blockquote {
   color: #454545; }
@@ -1878,16 +1876,6 @@ body, body.custom-background {
 
 .footer-widget-area .widget ul > li, .footer-widget-area .widget ol > li, .footer-widget-area .widget_calendar table, .footer-widget-area .widget_calendar td {
   border-color: #393939; }
-
-.post-navigation a,
-.paging-navigation a {
-  color: white;
-  background-color: #6C6869; }
-  .post-navigation a:hover,
-  .paging-navigation a:hover {
-    background-color: #787475;
-    color: white;
-    border: none; }
 
 .milestone-header span.date {
   color: #D3D3D3; }
@@ -2002,7 +1990,9 @@ a:active {
   .entry-content a img, .entry-summary a img {
     border-bottom: none; }
 
-.btn,
+.tag-tok a {
+  color: #25ab68; }
+
 button,
 html input[type="button"],
 input[type="submit"] {
@@ -2018,7 +2008,6 @@ input[type="submit"] {
   -webkit-appearance: button;
   /* Corrects inability to style clickable 'input' types in iOS */
   background-color: white; }
-  .btn:hover,
   button:hover,
   html input[type="button"]:hover,
   input[type="submit"]:hover {
@@ -2026,50 +2015,107 @@ input[type="submit"] {
     color: white; }
 
 #secondary .btn {
-  color: white;
+  background-color: white;
   display: block;
   font-size: 1em;
   padding: 1em;
   text-align: center;
   font-family: "museo-slab", "pt-serif", Georgia, serif;
-  background-color: #6C6869; }
+  border: 1px solid #6C6869;
+  color: #6C6869; }
   #secondary .btn:hover {
-    background-color: #787475; }
+    background-color: #787475;
+    color: white; }
 
-body.category-secondary #secondary .btn,
-body.category-english #secondary .btn,
-body.category-geography #secondary .btn,
-body.category-maths #secondary .btn,
-body.category-mfl #secondary .btn {
-  background-color: #D11B6D; }
-  body.category-secondary #secondary .btn:hover,
-  body.category-english #secondary .btn:hover,
-  body.category-geography #secondary .btn:hover,
-  body.category-maths #secondary .btn:hover,
-  body.category-mfl #secondary .btn:hover {
+body.secondary #secondary .btn,
+body.english #secondary .btn,
+body.geography #secondary .btn,
+body.maths #secondary .btn,
+body.mfl #secondary .btn {
+  color: #D11B6D;
+  border: 1px solid #D11B6D; }
+  body.secondary #secondary .btn:hover,
+  body.english #secondary .btn:hover,
+  body.geography #secondary .btn:hover,
+  body.maths #secondary .btn:hover,
+  body.mfl #secondary .btn:hover {
+    color: white;
     background-color: #e81e79; }
 
-body.category-vocational #secondary .btn,
-body.category-childcare #secondary .btn,
-body.category-functional-skills #secondary .btn,
-body.category-health-social-care #secondary .btn,
-body.category-motor-vehicle-technology #secondary .btn {
-  background-color: #633076; }
-  body.category-vocational #secondary .btn:hover,
-  body.category-childcare #secondary .btn:hover,
-  body.category-functional-skills #secondary .btn:hover,
-  body.category-health-social-care #secondary .btn:hover,
-  body.category-motor-vehicle-technology #secondary .btn:hover {
+body.vocational #secondary .btn,
+body.childcare #secondary .btn,
+body.functional-skills #secondary .btn,
+body.health-social-care #secondary .btn,
+body.motor-vehicle-technology #secondary .btn {
+  color: #633076;
+  border: 1px solid #633076; }
+  body.vocational #secondary .btn:hover,
+  body.childcare #secondary .btn:hover,
+  body.functional-skills #secondary .btn:hover,
+  body.health-social-care #secondary .btn:hover,
+  body.motor-vehicle-technology #secondary .btn:hover {
+    color: white;
     background-color: #6e3583; }
 
-body.category-theory-of-knowledge #secondary .btn {
-  background-color: #25ab68; }
-  body.category-theory-of-knowledge #secondary .btn:hover {
+body.theory-of-knowledge #secondary .btn {
+  color: #25ab68;
+  border: 1px solid #25ab68; }
+  body.theory-of-knowledge #secondary .btn:hover {
+    color: white;
     background-color: #29be74; }
+
+body.primary #secondary .btn,
+body.primary #secondary .btn {
+  color: #7ca62d;
+  border: 1px solid #99CA3C; }
+  body.primary #secondary .btn:hover,
+  body.primary #secondary .btn:hover {
+    color: white;
+    background-color: #aae043; }
 
 #content .no-widget-border {
   border: 0 solid;
   padding: 0; }
+
+.btn:before,
+.btn:after {
+  display: inline-block;
+  font-family: Genericons;
+  font-size: 1.3em;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: text-bottom;
+  -webkit-font-smoothing: antialiased;
+  padding-right: 5px; }
+
+.email-button:before {
+  content: "\f410";
+  position: relative; }
+
+.rss-button:before {
+  content: "\f413";
+  position: relative; }
+
+.external-button:before {
+  padding-right: 0; }
+.external-button:after {
+  content: "\f442";
+  position: relative;
+  padding-left: 5px; }
+
+.post-navigation a,
+.paging-navigation a {
+  color: #6C6869;
+  background-color: white;
+  border: 1px solid #6C6869;
+  text-transform: lowercase;
+  box-shadow: none; }
+  .post-navigation a:hover,
+  .paging-navigation a:hover {
+    background-color: #787475;
+    color: white;
+    border: none;
+    border: 1px solid #6C6869; }
 
 p, li, blockquote, span {
   font-family: "pt-serif"; }

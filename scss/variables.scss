@@ -44,6 +44,7 @@ $main-navigation-font-size:           					1.4rem;
 //subject Colours
 $home:                                					$oupGrey;
 $primary:														$oupGreen;
+$primary-darker:												darken($oupGreen, 10%);
 $secondary:                           					$oupPink;
 $vocational:                          					$oupViolet;
 $international:                       					$oupLilac;
@@ -84,7 +85,7 @@ $build-hover:                         $build                             / 0.7;
 $linkColour: 											$oupPink;
 $linkColourHover: 									$oupPinkLighter;
 $footerlinkColour: 									#fff;
-$footerlinkColourHover: 							$oupLilacLighter; 
+$footerlinkColourHover: 							$primary; 
 
 $input-padding:										4px 6px 2px; //for buttons and input fields
 $input-border:											#AAAAAA;

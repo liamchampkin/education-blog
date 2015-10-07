@@ -255,6 +255,20 @@ add_action( 'wp_enqueue_scripts', 'motif_scripts_styles' );
 
 add_theme_support( 'post-thumbnails' );
 
+add_filter('body_class','add_category_to_single');
+
+function add_category_to_single($classes) {
+  if (!is_admin() && is_single() || is_archive() ) {
+    global $post;
+    foreach((get_the_category($post->ID)) as $category) {
+      // add category slug to the $classes array
+      $classes[] = $category->slug;
+    }
+  }
+  // return the $classes array
+  return $classes;
+}
+
 /**
  * Enqueue Google fonts style to admin screen for custom header display.
  */
