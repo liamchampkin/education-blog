@@ -125,7 +125,7 @@ body.primary #secondary .btn{
   color: $home;
   background-color: white;
   border: 1px solid $home;
-  text-transform: lowercase;
+  text-transform: none;
   box-shadow: none; 
   &:hover{
     background-color: $oupGreyLighter;

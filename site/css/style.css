@@ -1990,8 +1990,18 @@ a:active {
   .entry-content a img, .entry-summary a img {
     border-bottom: none; }
 
-.tag-tok a {
+body.theory-of-knowledge #secondary a {
   color: #25ab68; }
+
+body.primary #secondary a {
+  color: #7ca62d; }
+
+body.category-vocational #secondary a,
+body.childcare #secondary a,
+body.functional-skills #secondary a,
+body.health-social-care #secondary a,
+body.motor-vehicle-technology #secondary a {
+  color: #633076; }
 
 button,
 html input[type="button"],
@@ -2108,7 +2118,7 @@ body.primary #secondary .btn {
   color: #6C6869;
   background-color: white;
   border: 1px solid #6C6869;
-  text-transform: lowercase;
+  text-transform: none;
   box-shadow: none; }
   .post-navigation a:hover,
   .paging-navigation a:hover {

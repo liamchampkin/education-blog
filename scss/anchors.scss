@@ -19,8 +19,31 @@ a:active {
 	}
 }
 
-.tag-tok{
-	a{
-		color: $theory;
+body.theory-of-knowledge{
+	#secondary{
+		a{
+			color: $theory;
+		}
 	}
 }
+
+body.primary{
+	#secondary{
+		a{
+			color: $primary-darker;
+		}
+	}
+}
+
+body.category-vocational,
+body.childcare,
+body.functional-skills,
+body.health-social-care,
+body.motor-vehicle-technology{
+	#secondary{
+		a{
+			color: $vocational;
+		}
+	}
+}
+
