@@ -10,7 +10,6 @@ input[type="url"]{
   transition: background-color 0.5s ease;
   padding: $input-padding;
   cursor: pointer; /* Improves usability and consistency of cursor style between image-type 'input' and others */
-  text-transform: uppercase;
   line-height: 1.5;
   -webkit-appearance: button; /* Corrects inability to style clickable 'input' types in iOS */
   background-color: white;
