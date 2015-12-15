@@ -60,6 +60,23 @@
   }
 }
 
+.category-science{
+  .entry-header{
+    border-left: $title-border-left solid $science;
+    a:hover{
+      color: $science;
+    }
+    .entry-title{
+      a{
+        color: $science;
+        &:hover{
+          color: $science-hover;
+        }
+      }
+    }
+  }
+}
+
 .category-mfl{
   .entry-header{
     border-left: $title-border-left solid $mfl;

@@ -59,6 +59,27 @@ body.motor-vehicle-technology #secondary .btn{
   }
 }
 
+body.childcare #secondary .btn{
+  color: $childcare;
+  border: 1px solid $childcare;
+  &:hover{
+    color: white;
+    background-color: $childcare /0.9; 
+  }
+}
+
+body.vocational #secondary .btn,
+body.functional-skills #secondary .btn,
+body.health-social-care #secondary .btn,
+body.motor-vehicle-technology #secondary .btn{
+  color: $vocational;
+  border: 1px solid $vocational;
+  &:hover{
+    color: white;
+    background-color: $vocational /0.9; 
+  }
+}
+
 body.theory-of-knowledge #secondary .btn{
   color: $theory;
   border: 1px solid $theory;

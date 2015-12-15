@@ -35,8 +35,16 @@ body.primary{
 	}
 }
 
+body.early-years,
+body.childcare{
+	#secondary{
+		a{
+			color: $early-years;
+		}
+	}
+}
+
 body.category-vocational,
-body.childcare,
 body.functional-skills,
 body.health-social-care,
 body.motor-vehicle-technology{

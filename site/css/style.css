@@ -1598,6 +1598,15 @@ object {
     .category-geography .entry-header .entry-title a:hover {
       color: #e81e79; }
 
+.category-science .entry-header {
+  border-left: 6px solid #D11B6D; }
+  .category-science .entry-header a:hover {
+    color: #D11B6D; }
+  .category-science .entry-header .entry-title a {
+    color: #D11B6D; }
+    .category-science .entry-header .entry-title a:hover {
+      color: #e81e79; }
+
 .category-mfl .entry-header {
   border-left: 6px solid #D11B6D; }
   .category-mfl .entry-header a:hover {
@@ -1644,13 +1653,13 @@ object {
       color: #8d45a9; }
 
 .category-childcare .entry-header {
-  border-left: 6px solid #633076; }
+  border-left: 6px solid #00B8B3; }
   .category-childcare .entry-header a:hover {
-    color: #633076; }
+    color: #00B8B3; }
   .category-childcare .entry-header .entry-title a {
-    color: #633076; }
+    color: #00B8B3; }
     .category-childcare .entry-header .entry-title a:hover {
-      color: #633076; }
+      color: #00B8B3; }
 
 .category-theory-of-knowledge .entry-header {
   border-left: 6px solid #25ab68; }
@@ -1747,6 +1756,15 @@ li.theory-menu {
     background-color: #29be74; }
     li.theory-menu ul li:hover {
       background: #25ab68; }
+
+li.early-years-menu {
+  background-color: #00B8B3; }
+  li.early-years-menu:hover {
+    background-color: #00ccc7; }
+  li.early-years-menu ul {
+    background-color: #00ccc7; }
+    li.early-years-menu ul li:hover {
+      background: #00B8B3; }
 
 .main-navigation {
   background-color: transparent;
@@ -1995,8 +2013,11 @@ body.theory-of-knowledge #secondary a {
 body.primary #secondary a {
   color: #7ca62d; }
 
+body.early-years #secondary a,
+body.childcare #secondary a {
+  color: #00B8B3; }
+
 body.category-vocational #secondary a,
-body.childcare #secondary a,
 body.functional-skills #secondary a,
 body.health-social-care #secondary a,
 body.motor-vehicle-technology #secondary a {
@@ -2060,6 +2081,26 @@ body.motor-vehicle-technology #secondary .btn {
   border: 1px solid #633076; }
   body.vocational #secondary .btn:hover,
   body.childcare #secondary .btn:hover,
+  body.functional-skills #secondary .btn:hover,
+  body.health-social-care #secondary .btn:hover,
+  body.motor-vehicle-technology #secondary .btn:hover {
+    color: white;
+    background-color: #6e3583; }
+
+body.childcare #secondary .btn {
+  color: #00B8B3;
+  border: 1px solid #00B8B3; }
+  body.childcare #secondary .btn:hover {
+    color: white;
+    background-color: #00ccc7; }
+
+body.vocational #secondary .btn,
+body.functional-skills #secondary .btn,
+body.health-social-care #secondary .btn,
+body.motor-vehicle-technology #secondary .btn {
+  color: #633076;
+  border: 1px solid #633076; }
+  body.vocational #secondary .btn:hover,
   body.functional-skills #secondary .btn:hover,
   body.health-social-care #secondary .btn:hover,
   body.motor-vehicle-technology #secondary .btn:hover {

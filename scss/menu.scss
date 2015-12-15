@@ -88,8 +88,20 @@ li.home-menu, li.grey-menu{ //default background-colour
   }
  }
 
-
-
+ li.early-years-menu{
+  background-color: $early-years;
+  &:hover{
+    background-color: $early-years / 0.9;
+  }
+  ul {
+    background-color: $early-years /0.9;
+    li{
+      &:hover{
+        background: $early-years;
+      }
+    } 
+  }
+ }
 
 .main-navigation {
   background-color: transparent;
